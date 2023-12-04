@@ -1,5 +1,5 @@
 # Vars
-stack_name=changy-archives
+stack_name=changy_archives
 project_url=changy-archives.local.barlito.fr
 app_container_id = $(shell docker ps --filter name="$(stack_name)_nginx" -q)
 
