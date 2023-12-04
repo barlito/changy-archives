@@ -13,6 +13,7 @@
         "doctrine/orm": "^2.17",
         "easycorp/easyadmin-bundle": "^4.8",
         "liip/imagine-bundle": "^2.12",
+        "stof/doctrine-extensions-bundle": "*",
         "symfony/console": "6.4.*",
         "symfony/dotenv": "6.4.*",
         "symfony/flex": "^2",
@@ -23,7 +24,8 @@
         "vich/uploader-bundle": "*"
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.52"
+        "symfony/maker-bundle": "^1.52",
+        "symfony/web-profiler-bundle": "6.4.*"
     },
     "config": {
         "allow-plugins": {
