@@ -1,0 +1,5 @@
+App\Entity\Image:
+    image_{1..100}:
+        id: <uuid()>
+        imageName: 'default.png'
+        imageSize: <numberBetween(1, 100)>

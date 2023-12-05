@@ -1,0 +1,16 @@
+App\Entity\Resource:
+    resource_image_{1..100}:
+        id: <uuid()>
+        title: <sentence()>
+        period: <numberBetween(1, 100)>
+        theme: <word()>
+        environment: <word()>
+        images: ['@image_<current()>']
+
+    resource_document_{1..10}:
+        id: <uuid()>
+        title: <sentence()>
+        period: <numberBetween(1, 100)>
+        theme: <word()>
+        environment: <word()>
+        documents: ['@document_<current()>']
