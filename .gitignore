@@ -8,6 +8,8 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
+/public/documents/
+/public/images/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
