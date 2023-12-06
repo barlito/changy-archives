@@ -1,0 +1,36 @@
+header {
+  background-color: white;
+  margin: 0 15vw;
+  padding: 1rem;
+  display: flex;
+  border-radius: 0 0 30px 30px;
+
+  .navbar {
+    display: flex;
+    flex-grow: 1;
+
+    .navbar-brand{
+      max-width: 50px;
+      margin-right: 2rem;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-grow: 1;
+      list-style: none;
+      align-items: center;
+      justify-content: space-evenly;
+
+      a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
